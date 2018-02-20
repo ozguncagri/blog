@@ -1,0 +1,1 @@
+# Blog files for [https://ozguncagri.com/blog](https://ozguncagri.com/blog)
