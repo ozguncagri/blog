@@ -1,43 +1,42 @@
 code {
-    background: #fff;
-    font-size: 14px;
-    padding: 4px;
-    border: none;
-    box-shadow: inset 0 0 0 1px #E4EBF2;
-    border-radius: 4px;
-    overflow: scroll;
-    font-family: 'Menlo', 'Monaco', Courier, monospace;
+	background: #fff;
+	font-size: 14px;
+	padding: 4px;
+	border: none;
+	box-shadow: inset 0 0 0 1px #E4EBF2;
+	border-radius: 4px;
+	overflow: scroll;
+	font-family: 'Menlo', 'Monaco', Courier, monospace;
 }
 
 pre code {
-    font-size: 14px;
-    /* word-wrap: break-word; */
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
-    padding: 16px;
-    padding-bottom: 14px;
-    display: block;
-    color: #808080;
-    background: #fff;
-    border: none;
-    box-shadow: inset 0 0 0 1px #E4EBF2;
-    border-radius: 4px;
-    overflow: auto;
+	font-size: 14px;
+	/* word-wrap: break-word; */
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+	padding: 16px;
+	padding-bottom: 14px;
+	display: block;
+	color: #808080;
+	background: #fff;
+	border: none;
+	box-shadow: inset 0 0 0 1px #E4EBF2;
+	border-radius: 4px;
+	overflow: auto;
 }
 
 /* Styling for in-paragraph code blocks */
 p code {
-  color: #D0021B;
-  font-weight: bold;
-  white-space: nowrap;
+	color: #D0021B;
+	font-weight: bold;
+	white-space: nowrap;
 }
 
 /* Tomorrow Night Eighties Theme */
-
 /* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #999999;
+	color: #999999;
 }
 
 /* Tomorrow Red */
@@ -49,7 +48,7 @@ p code {
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #f2777a;
+	color: #f2777a;
 }
 
 /* Tomorrow Orange */
@@ -61,12 +60,12 @@ p code {
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #f99157;
+	color: #f99157;
 }
 
 /* Tomorrow Yellow */
 .hljs-attribute {
-  color: #ffcc66;
+	color: #ffcc66;
 }
 
 /* Tomorrow Green */
@@ -74,34 +73,33 @@ p code {
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #99cc99;
+	color: #99cc99;
 }
 
 /* Tomorrow Blue */
 .hljs-title,
 .hljs-section {
-  color: #6699cc;
+	color: #6699cc;
 }
 
 /* Tomorrow Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #cc99cc;
+	color: #cc99cc;
 }
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #2d2d2d;
-  color: #cccccc;
-  padding: 0.5em;
+	display: block;
+	overflow-x: auto;
+	background: #2d2d2d;
+	color: #cccccc;
+	padding: 0.5em;
 }
 
 .hljs-emphasis {
-  font-style: italic;
+	font-style: italic;
 }
 
 .hljs-strong {
-  font-weight: bold;
+	font-weight: bold;
 }
-

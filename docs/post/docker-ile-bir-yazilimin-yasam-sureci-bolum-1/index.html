@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 	<head>
 		<meta charset="utf-8">
@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="ozzyBlog">
 		<meta name="description" content="#coder #techlover">
-		<meta name="generator" content="Hugo 0.36.1" />
+		<meta name="generator" content="Hugo 0.48" />
 		<title>Docker ile bir yazılımın yaşam süreci : Bölüm 1 &middot; ozzyBlog</title>
 		<link rel="shortcut icon" href="https://ozguncagri.com/blog/images/favicon.ico">
 		<link rel="stylesheet" href="https://ozguncagri.com/blog/css/style.css">
@@ -22,11 +22,12 @@
 		
 	</head>
 
-    <body>
-       <nav class="main-nav">
+
+<body>
+	<nav class="main-nav">
 	
 	
-		<a href='https://ozguncagri.com/blog/'> <span class="arrow">←&nbsp;</span>Ana Sayfa</a>
+	<a href='https://ozguncagri.com/blog/'> <span class="arrow">←&nbsp;</span>Ana Sayfa</a>
 	
 	<a href='https://ozguncagri.com/blog/post'>Arşiv</a>
 	<a href='https://ozguncagri.com/blog/tags'>Etiketler</a>
@@ -39,43 +40,43 @@
 	
 </nav>
 
-
-        <section id="wrapper">
-            <article class="post">
-                <header>
-                    <h1>
-                        Docker ile bir yazılımın yaşam süreci : Bölüm 1
-                    </h1>
-                    <h2 class="headline">
-                      <div class="infos"><span class="info">Yayın Tarihi : 03/09/2017</span><span class="info">Tahmini okuma süresi : 16 dakika</span></div>
-                      <div class="tags">
-                      
-                      
-                          
-                              <a href="https://ozguncagri.com/blog/tags/docker"><i class="fa fa-tag"></i>docker</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/containers"><i class="fa fa-tag"></i>containers</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/images"><i class="fa fa-tag"></i>images</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/cluster"><i class="fa fa-tag"></i>cluster</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/virtualization"><i class="fa fa-tag"></i>virtualization</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/development"><i class="fa fa-tag"></i>development</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/production"><i class="fa fa-tag"></i>production</a>
-                          
-                              <a href="https://ozguncagri.com/blog/tags/cloud"><i class="fa fa-tag"></i>cloud</a>
-                          
-                      
-                      
-                      </div>
-                    </h2>
-                </header>
-                
-                <section id="post-body">
-                    
+	<section id="wrapper">
+		<article class="post">
+			<header>
+				<h1>
+					Docker ile bir yazılımın yaşam süreci : Bölüm 1
+				</h1>
+				<h2 class="headline">
+					<div class="infos"><span class="info">Yayın Tarihi : 03/09/2017</span><span class="info">Tahmini
+							okuma süresi : 16 dakika</span></div>
+					<div class="tags">
+						
+						
+						
+						<a href="https://ozguncagri.com/blog/tags/docker"><i class="fa fa-tag"></i>docker</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/containers"><i class="fa fa-tag"></i>containers</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/images"><i class="fa fa-tag"></i>images</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/cluster"><i class="fa fa-tag"></i>cluster</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/virtualization"><i class="fa fa-tag"></i>virtualization</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/development"><i class="fa fa-tag"></i>development</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/production"><i class="fa fa-tag"></i>production</a>
+						
+						<a href="https://ozguncagri.com/blog/tags/cloud"><i class="fa fa-tag"></i>cloud</a>
+						
+						
+						
+					</div>
+				</h2>
+			</header>
+			
+			<section id="post-body">
+				
 
 <p>Yazılım hayatınız ile ilgili kendinize bir iyilik yapmak istiyorsanız, yapabileceğiniz en güzel şeylerden biri de Docker&rsquo;ı kullanmayı öğrenmek olur sanırım. Docker&rsquo;ın sağladığı avantajlar ve kolaylıklar göz önüne alındığında &ldquo;daha önce neden kullanmamışım ben bunu&rdquo; demeyi size garantileyecek kadar iyi bir altyapı sunuyor bizlere. Sunucu ortamının yönetimini o kadar basit bir hale getiriyor ki saniyeler içerisinde hızlıca cluster kurup, en iyi ayarlanmış sistemleri dahi utandıracak güzellikte bir yapı sunuyor bizlere.</p>
 
@@ -425,58 +426,39 @@ nginx
 
 <p>Bir sonraki Docker makalemizde görüşmek üzere&hellip;</p>
 
-                </section>
-            </article>
+			</section>
+		</article>
 
-            
-                <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'ozzyblog'; 
-
-     
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-
-            
-
-            <footer id="footer">
-    
-        <div id="social">
+		<footer id="footer">
+	
+	<div id="social">
+	
 
 	
+	<a class="symbol" href="https://www.github.com/ozguncagri" target="_blank">
+		<i class="fa fa-github-square"></i>
+	</a>
 	
-    <a class="symbol" href="https://www.github.com/ozguncagri" target="_blank">
-        <i class="fa fa-github-square"></i>
-    </a>
-    
 
-
+	
 </div>
-
-    
-    <p class="small">
-    
-        Bu blogdaki herşey MIT lisansı ile lisanslanmıştır!
-    
-    </p>
+	
+	<p class="small">
+		
+		Bu blogdaki herşey MIT lisansı ile lisanslanmıştır!
+		
+	</p>
 </footer>
+	</section>
 
-        </section>
-
-        <script src="https://ozguncagri.com/blog/js/jquery-2.2.4.min.js"></script>
+	<script src="https://ozguncagri.com/blog/js/jquery-2.2.4.min.js"></script>
 <script src="https://ozguncagri.com/blog/js/main.js"></script>
 <script src="https://ozguncagri.com/blog/js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
 
 
+</body>
 
-
-
-    </body>
 </html>
