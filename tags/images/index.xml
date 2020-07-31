@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Images on ozzyBlog</title>
-    <link>https://ozguncagri.com/blog/tags/images/</link>
-    <description>Recent content in Images on ozzyBlog</description>
+    <title>images on ozzyBlog</title>
+    <link>https://blog.ozguncagri.com/tags/images/</link>
+    <description>Recent content in images on ozzyBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Sun, 03 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ozguncagri.com/blog/tags/images/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ozguncagri.com/tags/images/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker ile bir yazılımın yaşam süreci : Bölüm 1</title>
-      <link>https://ozguncagri.com/blog/post/docker-ile-bir-yazilimin-yasam-sureci-bolum-1/</link>
+      <link>https://blog.ozguncagri.com/post/docker-ile-bir-yazilimin-yasam-sureci-bolum-1/</link>
       <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ozguncagri.com/blog/post/docker-ile-bir-yazilimin-yasam-sureci-bolum-1/</guid>
-      <description>Yazılım hayatınız ile ilgili kendinize bir iyilik yapmak istiyorsanız, yapabileceğiniz en güzel şeylerden biri de Docker&amp;rsquo;ı kullanmayı öğrenmek olur sanırım. Docker&amp;rsquo;ın sağladığı avantajlar ve kolaylıklar göz önüne alındığında &amp;ldquo;daha önce neden kullanmamışım ben bunu&amp;rdquo; demeyi size garantileyecek kadar iyi bir altyapı sunuyor bizlere. Sunucu ortamının yönetimini o kadar basit bir hale getiriyor ki saniyeler içerisinde hızlıca cluster kurup, en iyi ayarlanmış sistemleri dahi utandıracak güzellikte bir yapı sunuyor bizlere.</description>
+      <guid>https://blog.ozguncagri.com/post/docker-ile-bir-yazilimin-yasam-sureci-bolum-1/</guid>
+      <description>Yazılım hayatınız ile ilgili kendinize bir iyilik yapmak istiyorsanız, yapabileceğiniz en güzel şeylerden biri de Docker&amp;rsquo;ı kullanmayı öğrenmek olur sanırım. Docker&amp;rsquo;ın sağladığı avantajlar ve kolaylıklar göz önüne alındığında &amp;ldquo;daha önce neden kullanmamışım ben bunu&amp;rdquo; demeyi size garantileyecek kadar iyi bir altyapı sunuyor bizlere. Sunucu ortamının yönetimini o kadar basit bir hale getiriyor ki saniyeler içerisinde hızlıca cluster kurup, en iyi ayarlanmış sistemleri dahi utandıracak güzellikte bir yapı sunuyor bizlere.
+Peki; nedir bu Docker?</description>
     </item>
     
   </channel>
